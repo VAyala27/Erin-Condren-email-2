@@ -1,0 +1,1662 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="supported-color-schemes" content="light dark" />
+    <title>HTML Email Template Boilerplate</title>
+    <style type="text/css">
+      @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+      table {
+        border-spacing: 0;
+      }
+
+      td {
+        padding: 0;
+      }
+
+      p {
+        font-size: 15px;
+      }
+
+      img {
+        border: 0;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .three-col-img {
+        width: 200px;
+        max-width: 200px;
+      }
+
+      .two-col-img {
+        width: 300px;
+        max-width: 300px;
+      }
+
+      @media screen and (max-width: 599.98px) {
+        .header {
+          background: #fff;
+        }
+        .header .padding {
+          padding: 10px 0px 0px 0px !important;
+        }
+        .two-col-img {
+          max-width: 100% !important;
+          width: 100% !important;
+        }
+        .two-columns .column .padding {
+          padding: 0px !important;
+        }
+
+        .three-columns .column .padding {
+          padding: 0px !important;
+        }
+
+        .three-col-img {
+          width: 100% !important;
+          max-width: 100% !important;
+        }
+      }
+      @media only screen and (max-width: 399.98px) {
+        .header {
+          background: #fff;
+        }
+        .header .padding {
+          padding: 10px 0px 0px 0px !important;
+        }
+
+        .two-columns .column .padding {
+          padding: 0px !important;
+        }
+
+        .three-columns .column .padding {
+          padding: 0px !important;
+        }
+
+        .three-col-img {
+          height: 110px !important;
+        }
+
+        .footer .content p a {
+          font-size: 10px !important;
+        }
+        .footer .content p {
+          font-size: 10px !important;
+        }
+      }
+
+      /* Custom Dark Mode Colors */
+
+      @media (prefers-color-scheme: dark) {
+        .sub-header .column p {
+          color: #383633 !important;
+        }
+      }
+    </style>
+
+    <!--[if (gte mso 9)|(IE)]>
+      <style type="text/css">
+        table{border-collapse: collapse; !important}
+      </style>
+    <![endif]-->
+  </head>
+  <body
+    style="margin: 0; padding: 0; min-width: 100%; background-color: #dde0e1"
+  >
+    <!--[if (gte mso 9)|(IE)]>
+      <style type="text/css">
+        body {
+          background-color: #dde0e1 !important;
+        }
+        body,
+        table,
+        td,
+        p,
+        a {
+          font-family: sans-serif, Arial, Helvitica !important;
+        }
+      </style>
+    <![endif]-->
+
+    <!-- Start of HTML EMAIL -->
+    <center style="width: 100%; table-layout: fixed; background-color: #dde0e1">
+      <div
+        style="
+          max-width: 600px;
+          background-color: #fafdfe;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        "
+      >
+        <!-- Preheader (remove) -->
+        <div
+          style="
+            font-size: 0px;
+            color: #fafdfe;
+            line-height: 1px;
+            mso-line-height-rule: exactly;
+            display: none;
+            max-width: 0px;
+            max-height: 0px;
+            opacity: 0;
+            overflow: hidden;
+            mso-hide: all;
+          "
+        >
+          This is our preheader text! SALE SALE 25% OFF!
+          <!-- Add Preheader Text (85-100 character) -->
+        </div>
+        <!-- End Preheader (remove) -->
+
+        <!--[if (gte mso 9)|(IE)]>
+         <table width="600" align="center" style="border-spacing: 0; color:#565656" role="presentation">
+            <tr>
+               <td style="padding: 0;">
+    <![endif]-->
+
+        <!-- Start of container -->
+        <table
+          align="center"
+          style="
+            border-spacing: 0;
+            color: #565656;
+            font-family: sans-serif, Arial, Helvitica !important;
+            background-color: #fafdfe;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            max-width: 600px;
+          "
+          role="presentation"
+        >
+          <!--Start of one-col header -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td
+                    class="header"
+                    style="padding: 0; font-size: 0; text-align: center"
+                  >
+                    <!--[if (gte mso 9)|(IE)]>
+                                  <table width="100%" style="border-spacing: 0;" role="presentation">
+                                  <tr>
+                                  <td width="600" valign="top" style="padding: 0;">
+                               <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td
+                          class="padding"
+                          style="padding: 20px 20px 10px 20px"
+                        >
+                          <table
+                            class="content"
+                            style="border-spacing: 0; text-align: center"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  class="header-img"
+                                  style="width: 570px; max-width: 100%"
+                                  src="https://i.postimg.cc/Xq46W6Kb/erin-condren-header.jpg"
+                                  alt="header-img"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                          </td>
+                        </tr>
+                      </table>
+                        <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!-- Start of navbar -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td
+                    class="header"
+                    style="padding: 0; font-size: 0; text-align: center"
+                  >
+                    <!--[if (gte mso 9)|(IE)]>
+                                  <table width="100%" style="border-spacing: 0;" role="presentation">
+                                  <tr>
+                                  <td width="600" valign="top" style="padding: 0;">
+                               <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px">
+                          <table
+                            class="content"
+                            style="
+                              border-spacing: 0;
+                              text-align: center;
+                              width: 100%;
+                            "
+                            role="presentation"
+                            align="center"
+                          >
+                            <tr>
+                              <td style="width: 145px; text-align: center">
+                                <a
+                                  style="font-size: 0px"
+                                  href="https://example.com"
+                                >
+                                  <img
+                                    src="https://i.postimg.cc/Gh3nSrhP/erin-condren-lifeplanner.jpg"
+                                    alt=""
+                                    width="100%"
+                                  />
+                                </a>
+                              </td>
+
+                              <td style="width: 238px; text-align: center">
+                                <a
+                                  style="font-size: 0px"
+                                  href="https://example.com"
+                                >
+                                  <img
+                                    src="https://i.postimg.cc/YqXK5Vh5/erin-condren-lesson-planner.jpg"
+                                    alt=""
+                                    width="100%"
+                                  />
+                                </a>
+                              </td>
+                              <td style="width: 126px; text-align: center">
+                                <a
+                                  style="font-size: 0px"
+                                  href="https://example.com"
+                                >
+                                  <img
+                                    src="https://i.postimg.cc/t4Ty7bKR/erin-condren-accessories.jpg"
+                                    alt=""
+                                    width="100%"
+                                  />
+                                </a>
+                              </td>
+                              <td style="width: 66px; text-align: center">
+                                <a
+                                  style="font-size: 0px"
+                                  href="https://example.com"
+                                >
+                                  <img
+                                    src="https://i.postimg.cc/Pqwg852H/erin-condren-new.jpg"
+                                    alt=""
+                                    width="100%"
+                                  />
+                                </a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                          </td>
+                        </tr>
+                      </table>
+                        <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- End of navbar -->
+
+          <!--Start of one-col hero -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0">
+                    <!--[if (gte mso 9)|(IE)]>
+                              <table width="100%" style="border-spacing: 0;" role="presentation">
+                              <tr>
+                              <td width="600" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  class="one-col-img"
+                                  style="width: 600px; max-width: 100%"
+                                  src="https://i.postimg.cc/25RHMF7p/erin-condren-top-10.jpg"
+                                  alt="top 10"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                      </td>
+                    </tr>
+                  </table>
+                    <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col hero   -->
+
+          <!--Start of one-col -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0">
+                    <!--[if (gte mso 9)|(IE)]>
+                              <table width="100%" style="border-spacing: 0;" role="presentation">
+                              <tr>
+                              <td width="600" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  class="one-col-img"
+                                  style="width: 600px; max-width: 100%"
+                                  src="https://i.postimg.cc/SQrw957n/erin-condren-product-1.jpg"
+                                  alt="product-1"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                      </td>
+                    </tr>
+                  </table>
+                    <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!--Start of one-col -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0">
+                    <!--[if (gte mso 9)|(IE)]>
+                                  <table width="100%" style="border-spacing: 0;" role="presentation">
+                                  <tr>
+                                  <td width="600" valign="top" style="padding: 0;">
+                               <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  class="one-col-img"
+                                  style="width: 600px; max-width: 100%"
+                                  src="https://i.postimg.cc/C5mXVBLG/erin-condren-product-2.jpg"
+                                  alt="product-2"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                          </td>
+                        </tr>
+                      </table>
+                        <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!--Start of one-col -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0">
+                    <!--[if (gte mso 9)|(IE)]>
+                                      <table width="100%" style="border-spacing: 0;" role="presentation">
+                                      <tr>
+                                      <td width="600" valign="top" style="padding: 0;">
+                                   <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  class="one-col-img"
+                                  style="width: 600px; max-width: 100%"
+                                  src="https://i.postimg.cc/X7Ytk8QQ/erin-condren-product-3.jpg"
+                                  alt="product-3"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                              </td>
+                            </tr>
+                          </table>
+                            <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!--Start of one-col -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0">
+                    <!--[if (gte mso 9)|(IE)]>
+                                      <table width="100%" style="border-spacing: 0;" role="presentation">
+                                      <tr>
+                                      <td width="600" valign="top" style="padding: 0;">
+                                   <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  class="one-col-img"
+                                  style="width: 600px; max-width: 100%"
+                                  src="https://i.postimg.cc/Twx4LqKj/erin-condren-product-4.jpg"
+                                  alt="product-4"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                              </td>
+                            </tr>
+                          </table>
+                            <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!--Start of one-col -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0">
+                    <!--[if (gte mso 9)|(IE)]>
+                                      <table width="100%" style="border-spacing: 0;" role="presentation">
+                                      <tr>
+                                      <td width="600" valign="top" style="padding: 0;">
+                                   <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  class="one-col-img"
+                                  style="width: 600px; max-width: 100%"
+                                  src="https://i.postimg.cc/rwvbcLcP/erin-condren-product-5.jpg"
+                                  alt="product-5"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                              </td>
+                            </tr>
+                          </table>
+                            <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!--Start of one-col -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0">
+                    <!--[if (gte mso 9)|(IE)]>
+                                          <table width="100%" style="border-spacing: 0;" role="presentation">
+                                          <tr>
+                                          <td width="600" valign="top" style="padding: 0;">
+                                       <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img class="one-col-img" style="width: 600px;
+                                max-width: 100%"
+                                src=https://i.postimg.cc/DwWDtzVG/erin-condren-product-6.jpg"
+                                alt="product-6" />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                                  </td>
+                                </tr>
+                              </table>
+                                <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!--Start of one-col -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0">
+                    <!--[if (gte mso 9)|(IE)]>
+                                          <table width="100%" style="border-spacing: 0;" role="presentation">
+                                          <tr>
+                                          <td width="600" valign="top" style="padding: 0;">
+                                       <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  class="one-col-img"
+                                  style="width: 600px; max-width: 100%"
+                                  src="https://i.postimg.cc/tgWc4m4C/erin-condren-product-7.jpg"
+                                  alt="product-7"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                                  </td>
+                                </tr>
+                              </table>
+                                <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!--Start of one-col -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0">
+                    <!--[if (gte mso 9)|(IE)]>
+                                          <table width="100%" style="border-spacing: 0;" role="presentation">
+                                          <tr>
+                                          <td width="600" valign="top" style="padding: 0;">
+                                       <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img class="one-col-img" style="width: 600px;
+                                max-width: 100%"
+                                src=https://i.postimg.cc/289McZtm/erin-condren-product-8.jpg"
+                                alt="product-8" />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                                  </td>
+                                </tr>
+                              </table>
+                                <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!--Start of one-col -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0">
+                    <!--[if (gte mso 9)|(IE)]>
+                                              <table width="100%" style="border-spacing: 0;" role="presentation">
+                                              <tr>
+                                              <td width="600" valign="top" style="padding: 0;">
+                                           <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img class="one-col-img" style="width: 600px;
+                                max-width: 100%"
+                                src=https://i.postimg.cc/J04YKrcG/erin-condren-product-9.jpg"
+                                alt="product-9" />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                    <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!--Start of one-col -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0">
+                    <!--[if (gte mso 9)|(IE)]>
+                                              <table width="100%" style="border-spacing: 0;" role="presentation">
+                                              <tr>
+                                              <td width="600" valign="top" style="padding: 0;">
+                                           <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  class="one-col-img"
+                                  style="width: 600px; max-width: 100%"
+                                  src="https://i.postimg.cc/x1bx6FHy/erin-condren-product-10.jpg"
+                                  alt="product-10"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                    <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!--Start of one-col -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0">
+                    <!--[if (gte mso 9)|(IE)]>
+                                              <table width="100%" style="border-spacing: 0;" role="presentation">
+                                              <tr>
+                                              <td width="600" valign="top" style="padding: 0;">
+                                           <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  class="one-col-img"
+                                  style="width: 600px; max-width: 100%"
+                                  src="https://i.postimg.cc/P5PsT4DP/erin-condren-free-shipping.jpg"
+                                  alt="free shipping"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                    <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!--Start of one-col -->
+          <tr>
+            <td style="padding: 40px 0 40px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0">
+                    <!--[if (gte mso 9)|(IE)]>
+                                                  <table width="100%" style="border-spacing: 0;" role="presentation">
+                                                  <tr>
+                                                  <td width="600" valign="top" style="padding: 0;">
+                                               <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  class="one-col-img"
+                                  style="width: 600px; max-width: 100%"
+                                  src="https://i.postimg.cc/ryQPs4MW/erin-condren-share.jpg"
+                                  alt="share"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                                          </td>
+                                        </tr>
+                                      </table>
+                                        <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!-- start of two col -->
+          <tr>
+            <td style="padding: 0px">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td
+                    class="two-columns"
+                    style="padding: 0; font-size: 0; text-align: center"
+                  >
+                    <!--[if (gte mso 9)|(IE)]>
+                           <table width="100%" style="border-spacing: 0;" role="presentation">
+                           <tr>
+                           <td width="50%" valign="top" style="padding: 0;">
+                        <![endif]-->
+
+                    <table
+                      class="column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        width: 50%;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding">
+                          <table
+                            class="content"
+                            style="border-spacing: 0"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <a href="https://example.com" target="_blank">
+                                  <img
+                                    class="two-col-img"
+                                    src="https://i.postimg.cc/761jmtFQ/erin-condren-planners.jpg"
+                                    alt=""
+                                    width="100%"
+                                    style="max-width: 100%"
+                                    border="0"
+                                  />
+                                </a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                        </td><td width="50%" valign="top" style="padding: 0;">
+                        <![endif]-->
+
+                    <table
+                      class="column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        width: 50%;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding">
+                          <table
+                            class="content"
+                            style="border-spacing: 0"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <a href="https://example.com" target="_blank">
+                                  <img
+                                    class="two-col-img"
+                                    src="https://i.postimg.cc/yxVt5XB6/erin-condren-notebooks.jpg"
+                                    alt=""
+                                    width="100%"
+                                    style="max-width: 100%"
+                                    border="0"
+                                  />
+                                </a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                           </td>
+                           </tr>
+                           </table>
+                        <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- end of two col -->
+
+          <!-- start of two col -->
+          <tr>
+            <td style="padding: 0px">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td class="two-columns" style="padding: 0; font-size: 0">
+                    <!--[if (gte mso 9)|(IE)]>
+                           <table width="100%" style="border-spacing: 0;" role="presentation">
+                           <tr>
+                           <td width="50%" valign="top" style="padding: 0;">
+                        <![endif]-->
+
+                    <table
+                      class="column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        width: 50%;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding">
+                          <table
+                            class="content"
+                            style="border-spacing: 0"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <a href="https://example.com" target="_blank">
+                                  <img
+                                    class="two-col-img"
+                                    src="https://i.postimg.cc/cLbWnjWR/erin-condren-best-sellers.jpg"
+                                    alt=""
+                                    width="50%"
+                                    border="0"
+                                  />
+                                </a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                        </td><td width="50%" valign="top" style="padding: 0;">
+                        <![endif]-->
+
+                    <table
+                      class="column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        width: 50%;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding">
+                          <table
+                            class="content"
+                            style="border-spacing: 0"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <a href="https://example.com" target="_blank">
+                                  <img
+                                    class="two-col-img"
+                                    src="https://i.postimg.cc/3xVMRvj9/erin-condren-new-products.jpg"
+                                    alt=""
+                                    width="100%"
+                                    style="max-width: 100%"
+                                    border="0"
+                                  />
+                                </a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                           </td>
+                           </tr>
+                           </table>
+                        <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- end of two col -->
+
+          <!-- START THREE COLUMNS -->
+          <tr>
+            <td style="padding: 30px 0 40px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td class="three-columns" style="padding: 0; font-size: 0">
+                    <!--[if (gte mso 9)|(IE)]>
+                              <table width="100%" style="border-spacing: 0;" role="presentation">
+                              <tr>
+                              <td width="33.33%" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                    <table
+                      class="column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        width: 33.33%;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding">
+                          <table
+                            class="content"
+                            style="border-spacing: 0"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <a href="https://example.com">
+                                  <img
+                                    class="three-col-img"
+                                    src="https://i.postimg.cc/7PnyVbDY/erin-condren-enjoy-rewards.jpg"
+                                    alt="newsletter"
+                                    width="100%"
+                                    height="170px"
+                                    style="max-width: 100%"
+                                    border="0"
+                                  />
+                                </a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                           </td><td width="33.33%" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                    <table
+                      class="column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        width: 33.33%;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding">
+                          <table
+                            class="content"
+                            style="border-spacing: 0; text-align: center"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <a href="https://example.com">
+                                  <img
+                                    class="three-col-img"
+                                    src="https://i.postimg.cc/DZcYqJG9/erin-condren-refer-a-friend.jpg"
+                                    alt="ecommerce"
+                                    width="100%"
+                                    height="170px"
+                                    style="max-width: 100%"
+                                    border="0"
+                                  />
+                                </a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                           </td><td width="33.33%" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                    <table
+                      class="column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        width: 33.33%;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding">
+                          <table
+                            class="content"
+                            style="border-spacing: 0; text-align: center"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <a href="https://example.com">
+                                  <img
+                                    class="three-col-img three-col-img-last"
+                                    src="https://i.postimg.cc/NFDqfCbr/erin-condren-discover-deals.jpg"
+                                    alt="newsletter"
+                                    width="100%"
+                                    height="170px"
+                                    style="max-width: 100%"
+                                    border="0"
+                                  />
+                                </a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]>
+                              </td>
+                              </tr>
+                              </table>
+                           <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- END THREE COLUMNS -->
+
+          <!--Start of one-col -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table
+                class="footer"
+                width="100%"
+                style="border-spacing: 0"
+                role="presentation"
+              >
+                <tr>
+                  <td style="padding: 0; font-size: 0">
+                    <!--[if (gte mso 9)|(IE)]>
+                      <table width="100%" style="border-spacing: 0;" role="presentation">
+                      <tr>
+                      <td width="600" valign="top" style="padding: 0;">
+                   <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <p
+                                  style="
+                                    color: rgb(177, 179, 181);
+                                    font-size: 11px;
+                                    margin: 0;
+                                    margin-bottom: 10px;
+                                    line-height: 12px;
+                                  "
+                                >
+                                  *Free economy shipping offer is valid for
+                                  qualifying orders of $78 or more before taxes
+                                  and after applicable discounts. Qualifying
+                                  orders (within the continental US only) that
+                                  ship free will be sent via economy shipping
+                                  (valued at $7.95). This promotion is not
+                                  applicable towards premium or expedited
+                                  shipping methods, international orders,
+                                  previous purchases, gift cards, or pick-up
+                                  orders. Cannot be redeemed for cash. Terms of
+                                  offer are subject to change at any time
+                                  without notification.
+                                </p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <p
+                                  style="
+                                    line-height: 12px;
+                                    color: rgb(177, 179, 181);
+                                    font-size: 11px;
+                                    margin: 0;
+                                    margin-bottom: 10px;
+                                  "
+                                >
+                                  **25% Off Everything Friends & Family Sale
+                                  offer ends 9/21/2022 at 9:59PM PT / 11:59PM CT
+                                  or while supplies last. Products will be
+                                  discounted at checkout. One use per customer.
+                                  Offers and promos will only be valid once per
+                                  cart. Offer does not stack with any other
+                                  offers or promo codes. Promos and offers not
+                                  applied to previous purchases, seasonal
+                                  surprise box, special edition boxes, bundles,
+                                  eGift Cards, Gift Cards, shipping, taxes,
+                                  customs fees, or any other charges. Offers and
+                                  promos subject to change without notice.
+                                </p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td
+                                height="2"
+                                style="background-color: #222"
+                              ></td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+              </td>
+            </tr>
+          </table>
+            <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!--Start of one-col -->
+          <tr>
+            <td style="padding: 20px 0 20px 0">
+              <table
+                class="footer"
+                width="100%"
+                style="border-spacing: 0"
+                role="presentation"
+              >
+                <tr>
+                  <td style="padding: 0; font-size: 0">
+                    <!--[if (gte mso 9)|(IE)]>
+                          <table width="100%" style="border-spacing: 0;" role="presentation">
+                          <tr>
+                          <td width="600" valign="top" style="padding: 0;">
+                       <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        width: 100%;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0; width: 100%"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <p
+                                  style="
+                                    text-align: center;
+                                    margin: 0;
+                                    margin-bottom: 5px;
+                                  "
+                                >
+                                  <a
+                                    style="font-size: 12px; color: #4d4d4f"
+                                    href="http://example.com"
+                                  >
+                                    view this email in your browser
+                                  </a>
+                                </p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <p
+                                  style="
+                                    text-align: center;
+                                    margin: 0;
+                                    margin-bottom: 5px;
+                                    font-size: 12px;
+                                    color: #4d4d4f;
+                                  "
+                                >
+                                  This email was sent to
+                                  <a
+                                    style="
+                                      color: #15c;
+                                      text-decoration: underline;
+                                    "
+                                    href="http://example.com"
+                                  >
+                                    johnsmith@gmail.com
+                                  </a>
+                                  by Erin Condren Design
+                                </p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <p
+                                  style="
+                                    text-align: center;
+                                    margin: 0;
+                                    margin-bottom: 5px;
+                                    font-size: 12px;
+                                    color: #4d4d4f;
+                                  "
+                                >
+                                  Erin Condren Design | 201 W Howard Lane |
+                                  Austin, TX 78753 | United States
+                                </p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <p
+                                  style="
+                                    text-align: center;
+                                    margin: 0;
+                                    margin-bottom: 5px;
+                                  "
+                                >
+                                  <a
+                                    style="
+                                      font-size: 12px;
+                                      color: #4d4d4f;
+                                      text-decoration: underline;
+                                    "
+                                    href="http://example.com"
+                                  >
+                                    To unsubscribe, click here.
+                                  </a>
+                                </p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                  </td>
+                </tr>
+              </table>
+                <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+        </table>
+        <!-- End of container -->
+
+        <!--[if (gte mso 9)|(IE)]>
+        </td>
+      </tr>
+   </table>
+         <![endif]-->
+      </div>
+      <!-- End of HTML EMAIL -->
+    </center>
+  </body>
+</html>
